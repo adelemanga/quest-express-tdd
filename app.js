@@ -1,4 +1,5 @@
-// app.js
+require('dotenv').config();
+const connection = require('./connection');
 const express = require('express');
 const bodyParser = require('body-parser');
 
